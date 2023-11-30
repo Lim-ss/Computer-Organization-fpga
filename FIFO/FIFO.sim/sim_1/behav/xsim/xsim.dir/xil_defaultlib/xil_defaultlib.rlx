@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/86134/Desktop/lab/FIFO/FIFO.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/86134/Desktop/lab/FIFO/FIFO.srcs/sim_1/new/simulation.v,1681064917,verilog,,,,simulation,,,,,,,,
+C:/Users/86134/Desktop/lab/FIFO/FIFO.srcs/sources_1/new/fifo.v,1681044495,verilog,,C:/Users/86134/Desktop/lab/FIFO/FIFO.srcs/sources_1/new/fsm.v,,fifo,,,,,,,,
+C:/Users/86134/Desktop/lab/FIFO/FIFO.srcs/sources_1/new/fsm.v,1681041565,verilog,,C:/Users/86134/Desktop/lab/FIFO/FIFO.srcs/sources_1/new/lcu.v,,fsm,,,,,,,,
+C:/Users/86134/Desktop/lab/FIFO/FIFO.srcs/sources_1/new/lcu.v,1681044178,verilog,,C:/Users/86134/Desktop/lab/FIFO/FIFO.srcs/sources_1/new/register_file.v,,lcu,,,,,,,,
+C:/Users/86134/Desktop/lab/FIFO/FIFO.srcs/sources_1/new/register_file.v,1681039823,verilog,,C:/Users/86134/Desktop/lab/FIFO/FIFO.srcs/sources_1/new/sdu.v,,register_file,,,,,,,,
+C:/Users/86134/Desktop/lab/FIFO/FIFO.srcs/sources_1/new/sdu.v,1681066902,verilog,,C:/Users/86134/Desktop/lab/FIFO/FIFO.srcs/sources_1/new/signal_edge.v,,sdu,,,,,,,,
+C:/Users/86134/Desktop/lab/FIFO/FIFO.srcs/sources_1/new/signal_edge.v,1681020569,verilog,,C:/Users/86134/Desktop/lab/FIFO/FIFO.srcs/sim_1/new/simulation.v,,signal_edge,,,,,,,,

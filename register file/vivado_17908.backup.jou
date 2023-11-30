@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Apr  9 13:00:11 2023
+# Process ID: 17908
+# Current directory: C:/Users/86134/Desktop/lab/register file
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8184 C:\Users\86134\Desktop\lab\register file\register file.xpr
+# Log file: C:/Users/86134/Desktop/lab/register file/vivado.log
+# Journal file: C:/Users/86134/Desktop/lab/register file\vivado.jou
+# Running On: LAPTOP-R672LTNG, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8278 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/86134/Desktop/lab/register file/register file.xpr}
+update_compile_order -fileset sources_1

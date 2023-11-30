@@ -1,0 +1,4 @@
+;Sample Initialization file for a 16x8 distributed single ram
+memory_initialization_radix = 16;
+memory_initialization_vector =
+01,02,03,04,11,12,13,14,f1,f2,f3,f4,ea,eb,ec,ed;

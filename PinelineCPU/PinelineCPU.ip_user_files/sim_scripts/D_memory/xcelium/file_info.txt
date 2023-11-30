@@ -1,0 +1,3 @@
+dist_mem_gen_v8_0.v,verilog,dist_mem_gen_v8_0_13,../../../ipstatic/simulation/dist_mem_gen_v8_0.v,
+D_memory.v,verilog,xil_defaultlib,../../../../PinelineCPU.gen/sources_1/ip/D_memory/sim/D_memory.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

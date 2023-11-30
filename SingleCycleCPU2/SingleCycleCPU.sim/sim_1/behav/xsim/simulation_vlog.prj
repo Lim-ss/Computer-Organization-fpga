@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SingleCycleCPU.gen/sources_1/ip/IM/sim/IM.v" \
+"../../../../SingleCycleCPU.gen/sources_1/ip/DM/sim/DM.v" \
+"../../../../SingleCycleCPU.srcs/sources_1/new/ADD.v" \
+"../../../../SingleCycleCPU.srcs/sources_1/new/ALU.v" \
+"../../../../SingleCycleCPU.srcs/sources_1/new/AND.v" \
+"../../../../SingleCycleCPU.srcs/sources_1/new/Branch.v" \
+"../../../../SingleCycleCPU.srcs/sources_1/new/CHECK_DATA_SEL.v" \
+"../../../../lab4_files/PDU_src/CPU.v" \
+"../../../../SingleCycleCPU.srcs/sources_1/new/Control.v" \
+"../../../../SingleCycleCPU.srcs/sources_1/new/IMM.v" \
+"../../../../lab4_files/PDU_src/MEM.v" \
+"../../../../SingleCycleCPU.srcs/sources_1/new/MUX1.v" \
+"../../../../SingleCycleCPU.srcs/sources_1/new/MUX2.v" \
+"../../../../SingleCycleCPU.srcs/sources_1/new/NPC_SEL.v" \
+"../../../../SingleCycleCPU.srcs/sources_1/new/PC.v" \
+"../../../../SingleCycleCPU.srcs/sources_1/new/RF.v" \
+"../../../../SingleCycleCPU.srcs/sim_1/new/simulation.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

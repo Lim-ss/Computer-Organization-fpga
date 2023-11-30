@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Apr  4 22:05:50 2023
+# Process ID: 2628
+# Current directory: C:/Users/86134/Desktop/lab/ALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8516 C:\Users\86134\Desktop\lab\ALU\ALU.xpr
+# Log file: C:/Users/86134/Desktop/lab/ALU/vivado.log
+# Journal file: C:/Users/86134/Desktop/lab/ALU\vivado.jou
+# Running On: LAPTOP-R672LTNG, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8278 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86134/Desktop/lab/ALU/ALU.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source simulation.tcl
+close_sim
+launch_simulation
+source simulation.tcl
+close_sim
+launch_simulation
+source simulation.tcl
+close_sim
+launch_simulation
+source simulation.tcl
+current_wave_config {Untitled 4}
+add_wave {{/simulation/add/c}} 
+relaunch_sim
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source simulation.tcl
+current_wave_config {Untitled 5}
+add_wave {{/simulation/add/c}} 
+relaunch_sim
+close_sim
+launch_simulation
+source simulation.tcl
+close_sim

@@ -1,0 +1,318 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed May 10 18:32:13 2023
+# Process ID: 23100
+# Current directory: C:/Users/86134/Desktop/lab/SingleCycleCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11296 C:\Users\86134\Desktop\lab\SingleCycleCPU\SingleCycleCPU.xpr
+# Log file: C:/Users/86134/Desktop/lab/SingleCycleCPU/vivado.log
+# Journal file: C:/Users/86134/Desktop/lab/SingleCycleCPU\vivado.jou
+# Running On: LAPTOP-R672LTNG, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8278 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/vivado/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:10 . Memory (MB): peak = 1133.625 ; gain = 338.508
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/utils_1/imports/synth_1/Top.dcp with file C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.runs/synth_1/Top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 10 18:36:50 2023] Launched synth_1...
+Run output will be captured here: C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.runs/synth_1/runme.log
+[Wed May 10 18:36:50 2023] Launched impl_1...
+Run output will be captured here: C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/utils_1/imports/synth_1/Top.dcp with file C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.runs/synth_1/Top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 10 20:23:46 2023] Launched synth_1...
+Run output will be captured here: C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.runs/synth_1/runme.log
+[Wed May 10 20:23:46 2023] Launched impl_1...
+Run output will be captured here: C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.runs/impl_1/runme.log
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: Top
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/vivado/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1914.414 ; gain = 399.348
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Top.v:7]
+INFO: [Synth 8-6157] synthesizing module 'PDU' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/PDU.v:7]
+INFO: [Synth 8-6157] synthesizing module 'Receive' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Receive.v:9]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Receive.v:86]
+INFO: [Synth 8-6155] done synthesizing module 'Receive' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Receive.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Send' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Send.v:8]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Send.v:92]
+INFO: [Synth 8-6155] done synthesizing module 'Send' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Send.v:8]
+INFO: [Synth 8-6157] synthesizing module 'Ded' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Ded.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'Ded' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Ded.v:8]
+INFO: [Synth 8-6157] synthesizing module 'Memory_Map' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Memory_Map.v:6]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Memory_Map.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'Memory_Map' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Memory_Map.v:6]
+INFO: [Synth 8-6157] synthesizing module 'PDU_ctrl' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/PDU_ctrl.v:7]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/PDU_ctrl.v:140]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/PDU_ctrl.v:173]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/PDU_ctrl.v:117]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/PDU_ctrl.v:348]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/PDU_ctrl.v:383]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/PDU_ctrl.v:365]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/PDU_ctrl.v:418]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/PDU_ctrl.v:444]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/PDU_ctrl.v:455]
+INFO: [Synth 8-6157] synthesizing module 'Uout' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Uout.v:6]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Uout.v:89]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Uout.v:170]
+INFO: [Synth 8-6157] synthesizing module 'Hex2ASC' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Hex2ASC.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Hex2ASC' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Hex2ASC.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Uout' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Uout.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'PDU_ctrl' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/PDU_ctrl.v:7]
+INFO: [Synth 8-6157] synthesizing module 'Shift_reg' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Shift_reg.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'Shift_reg' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Shift_reg.v:10]
+INFO: [Synth 8-6157] synthesizing module 'Segment' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Segment.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'Segment' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Segment.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'PDU' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/PDU.v:7]
+INFO: [Synth 8-6157] synthesizing module 'CPU' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/CPU.v:4]
+INFO: [Synth 8-6157] synthesizing module 'PC' [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/PC.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/PC.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RF' [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/RF.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RF' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/RF.v:1]
+WARNING: [Synth 8-689] width (32) of port connection 'ra_dbg' does not match port width (5) of module 'RF' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/CPU.v:83]
+INFO: [Synth 8-6157] synthesizing module 'Control' [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/Control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Control' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/Control.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/ALU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/ALU.v:1]
+WARNING: [Synth 8-7071] port 'overflow' of module 'ALU' is unconnected for instance 'alu' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/CPU.v:104]
+WARNING: [Synth 8-7023] instance 'alu' of module 'ALU' has 5 connections declared, but only 4 given [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/CPU.v:104]
+INFO: [Synth 8-6157] synthesizing module 'Branch' [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/Branch.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Branch' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/Branch.v:1]
+INFO: [Synth 8-6157] synthesizing module 'NPC_SEL' [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/NPC_SEL.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'NPC_SEL' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/NPC_SEL.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IMM' [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/IMM.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'IMM' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/IMM.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ADD' [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/ADD.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ADD' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/ADD.v:1]
+INFO: [Synth 8-6157] synthesizing module 'AND' [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/AND.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'AND' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/AND.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MUX1' [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/MUX1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MUX1' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/MUX1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MUX2' [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/MUX2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MUX2' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/MUX2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CHECK_DATA_SEL' [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/CHECK_DATA_SEL.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CHECK_DATA_SEL' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/CHECK_DATA_SEL.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/CPU.v:4]
+INFO: [Synth 8-6157] synthesizing module 'MEM' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/MEM.v:1]
+INFO: [Synth 8-6157] synthesizing module 'DM' [C:/Users/86134/Desktop/lab/SingleCycleCPU/.Xil/Vivado-23100-LAPTOP-R672LTNG/realtime/DM_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'DM' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/.Xil/Vivado-23100-LAPTOP-R672LTNG/realtime/DM_stub.v:5]
+WARNING: [Synth 8-689] width (32) of port connection 'dpra' does not match port width (8) of module 'DM' [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/MEM.v:25]
+INFO: [Synth 8-6157] synthesizing module 'IM' [C:/Users/86134/Desktop/lab/SingleCycleCPU/.Xil/Vivado-23100-LAPTOP-R672LTNG/realtime/IM_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'IM' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/.Xil/Vivado-23100-LAPTOP-R672LTNG/realtime/IM_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MEM' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/MEM.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (0#1) [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/PDU_src/Top.v:7]
+WARNING: [Synth 8-7129] Port im_addr[31] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[30] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[29] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[28] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[27] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[26] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[25] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[24] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[23] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[22] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[21] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[20] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[19] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[18] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[17] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[16] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[15] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[14] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[13] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[12] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[11] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[10] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[1] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[0] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[31] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[30] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[29] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[28] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[27] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[26] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[25] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[24] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[23] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[22] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[21] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[20] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[19] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[18] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[17] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[16] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[15] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[14] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[13] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[12] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[11] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[10] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[1] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[0] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[31] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[30] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[29] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[28] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[27] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[26] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[25] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[24] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[23] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[22] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[21] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[20] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[19] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[18] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[17] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[16] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[15] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[14] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[13] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[12] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[11] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[10] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[9] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[8] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[31] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[30] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[29] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[28] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[27] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[26] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[25] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[24] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[23] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[22] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[21] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[20] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[19] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[18] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[17] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[16] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[15] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[14] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[13] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[12] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[11] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[10] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[9] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port check_addr[8] in module CHECK_DATA_SEL is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[6] in module IMM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[5] in module IMM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[4] in module IMM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[3] in module IMM is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2017.871 ; gain = 502.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2017.871 ; gain = 502.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2017.871 ; gain = 502.805
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.gen/sources_1/ip/DM/DM.dcp' for cell 'memory/dm'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.gen/sources_1/ip/IM/IM.dcp' for cell 'memory/im'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.119 . Memory (MB): peak = 2017.871 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 127 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/constraints.xdc]
+Finished Parsing XDC File [C:/Users/86134/Desktop/lab/SingleCycleCPU/lab4_files/constraints.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2113.125 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 64 instances were transformed.
+  RAM128X1D => RAM128X1D (MUXF7(x2), RAMD64E(x4)): 64 instances
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:17 . Memory (MB): peak = 2157.562 ; gain = 642.496
+78 Infos, 104 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 2157.562 ; gain = 995.422
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 10 20:44:41 2023...

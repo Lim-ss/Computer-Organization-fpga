@@ -1,0 +1,145 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed May 10 20:26:12 2023
+| Host         : LAPTOP-R672LTNG running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_control_sets_placed.rpt
+| Design       : Top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    67 |
+|    Minimum number of control sets                        |    67 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   146 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    67 |
+| >= 0 to < 4        |    10 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    50 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            2 |
+| No           | No                    | Yes                    |              32 |           18 |
+| No           | Yes                   | No                     |              98 |           34 |
+| Yes          | No                    | No                     |            1000 |          653 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             602 |          218 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+--------------------------------------------------------------------------------------------+------------------------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |                                        Enable Signal                                       |                Set/Reset Signal                | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+--------------------------------------------------------------------------------------------+------------------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | pdu/rcv/din_reg_47_out                                                                     |                                                |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | pdu/rcv/din_reg_015_out                                                                    |                                                |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | pdu/rcv/din_reg_113_out                                                                    |                                                |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | pdu/rcv/din_reg_39_out                                                                     |                                                |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | pdu/rcv/din_reg_71_out                                                                     |                                                |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | pdu/rcv/din_reg_63_out                                                                     |                                                |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | pdu/rcv/din_reg_55_out                                                                     |                                                |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | pdu/rcv/din_reg_211_out                                                                    |                                                |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | pdu/send/dout                                                                              | pdu/send/dout_i_1_n_0                          |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG |                                                                                            |                                                |                2 |              2 |         1.00 |
+|  clk_IBUF_BUFG | pdu/rcv/din_cnt                                                                            | pdu/rcv/din_cnt[3]_i_1_n_0                     |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG | pdu/send/tx_cnt                                                                            | pdu/send/dout_i_1_n_0                          |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | pdu/control/FSM_sequential_main_current_state[5]_i_1_n_0                                   | sw_IBUF[7]                                     |                4 |              6 |         1.50 |
+|  clk_IBUF_BUFG | pdu/control/uart_out/E[0]                                                                  | sw_IBUF[7]                                     |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG | pdu/rcv/din_vld0                                                                           | sw_IBUF[7]                                     |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG |                                                                                            | pdu/rcv/div_cnt[9]_i_1_n_0                     |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG |                                                                                            | pdu/send/div_cnt[9]_i_1__0_n_0                 |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG |                                                                                            | pdu/control/uart_out/counter_10000T[0]_i_1_n_0 |                5 |             20 |         4.00 |
+|  clk_IBUF_BUFG | pdu/control/cpu_clk_conter0                                                                | sw_IBUF[7]                                     |                5 |             21 |         4.20 |
+|  clk_IBUF_BUFG |                                                                                            | pdu/my_reg/cnt_100ms[0]_i_1_n_0                |                7 |             26 |         3.71 |
+|  clk_IBUF_BUFG | pdu/seg/sel                                                                                | pdu/seg/cnt_2ms[0]_i_1_n_0                     |                7 |             26 |         3.71 |
+|  clk_IBUF_BUFG | pdu/mmp/btn_status[31]_i_2_n_0                                                             | pdu/mmp/btn_status[31]_i_1_n_0                 |               11 |             31 |         2.82 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_24[0]                                                            |                                                |               23 |             32 |         1.39 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_6[0]                                                             |                                                |               24 |             32 |         1.33 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_8[0]                                                             |                                                |               18 |             32 |         1.78 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_10[0]                                                            |                                                |               14 |             32 |         2.29 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_21[0]                                                            |                                                |               23 |             32 |         1.39 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_16[0]                                                            |                                                |               19 |             32 |         1.68 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_4[0]                                                             |                                                |               22 |             32 |         1.45 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_26[0]                                                            |                                                |               18 |             32 |         1.78 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_2[0]                                                             |                                                |               21 |             32 |         1.52 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_30[0]                                                            |                                                |               19 |             32 |         1.68 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_5[0]                                                             |                                                |               19 |             32 |         1.68 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_13[0]                                                            |                                                |               17 |             32 |         1.88 |
+|  clk_IBUF_BUFG |                                                                                            | sw_IBUF[7]                                     |               14 |             32 |         2.29 |
+|  cpu_clk_BUFG  |                                                                                            | pdu/control/AR[0]                              |               18 |             32 |         1.78 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_0[0]                                                             |                                                |               19 |             32 |         1.68 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_11[0]                                                            |                                                |               18 |             32 |         1.78 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_23[0]                                                            |                                                |               25 |             32 |         1.28 |
+|  clk_IBUF_BUFG | pdu/mmp/pos_btn                                                                            | sw_IBUF[7]                                     |               14 |             32 |         2.29 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_20[0]                                                            |                                                |               19 |             32 |         1.68 |
+|  clk_IBUF_BUFG | cpu/alu/dm_i_2_1[0]                                                                        | sw_IBUF[7]                                     |               14 |             32 |         2.29 |
+|  clk_IBUF_BUFG | pdu/my_reg/dout[31]_i_1_n_0                                                                | sw_IBUF[7]                                     |               11 |             32 |         2.91 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_7[0]                                                             |                                                |               20 |             32 |         1.60 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_28[0]                                                            |                                                |               23 |             32 |         1.39 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_12[0]                                                            |                                                |               27 |             32 |         1.19 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_25[0]                                                            |                                                |               26 |             32 |         1.23 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_18[0]                                                            |                                                |               18 |             32 |         1.78 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_29[0]                                                            |                                                |               20 |             32 |         1.60 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_19[0]                                                            |                                                |               21 |             32 |         1.52 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_15[0]                                                            |                                                |               15 |             32 |         2.13 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_3[0]                                                             |                                                |               27 |             32 |         1.19 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_14[0]                                                            |                                                |               29 |             32 |         1.10 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_27[0]                                                            |                                                |               21 |             32 |         1.52 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_9[0]                                                             |                                                |               21 |             32 |         1.52 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_22[0]                                                            |                                                |               21 |             32 |         1.52 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_17[0]                                                            |                                                |               15 |             32 |         2.13 |
+|  clk_IBUF_BUFG | pdu/control/bp_pc                                                                          | sw_IBUF[7]                                     |               14 |             32 |         2.29 |
+|  cpu_clk_BUFG  | memory/regfile[1][31]_i_3_1[0]                                                             |                                                |               23 |             32 |         1.39 |
+|  clk_IBUF_BUFG | cpu/alu/dm_i_2_0[0]                                                                        | sw_IBUF[7]                                     |               21 |             33 |         1.57 |
+|  clk_IBUF_BUFG | cpu/alu/led0[31]_i_5_0[0]                                                                  | sw_IBUF[7]                                     |               16 |             33 |         2.06 |
+|  clk_IBUF_BUFG | cpu/alu/led1[31]_i_5_0[0]                                                                  | sw_IBUF[7]                                     |               19 |             33 |         1.74 |
+|  clk_IBUF_BUFG | cpu/alu/E[0]                                                                               | sw_IBUF[7]                                     |               16 |             33 |         2.06 |
+|  clk_IBUF_BUFG | pdu/control/check_addr[31]_i_1_n_0                                                         | sw_IBUF[7]                                     |               10 |             35 |         3.50 |
+|  cpu_clk_BUFG  | memory/dm/U0/synth_options.dist_mem_inst/gen_dp_ram.dpram_inst/ram_reg_128_255_0_0_i_1_n_0 |                                                |               32 |            128 |         4.00 |
+|  cpu_clk_BUFG  | memory/dm/U0/synth_options.dist_mem_inst/gen_dp_ram.dpram_inst/ram_reg_0_127_0_0_i_1_n_0   |                                                |               32 |            128 |         4.00 |
+|  clk_IBUF_BUFG | pdu/control/uart_out/code_r29[3]_i_1_n_0                                                   | sw_IBUF[7]                                     |               46 |            198 |         4.30 |
++----------------+--------------------------------------------------------------------------------------------+------------------------------------------------+------------------+----------------+--------------+
+
+

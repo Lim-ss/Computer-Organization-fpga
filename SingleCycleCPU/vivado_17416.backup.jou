@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed May 10 09:42:53 2023
+# Process ID: 17416
+# Current directory: C:/Users/86134/Desktop/lab/SingleCycleCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14020 C:\Users\86134\Desktop\lab\SingleCycleCPU\SingleCycleCPU.xpr
+# Log file: C:/Users/86134/Desktop/lab/SingleCycleCPU/vivado.log
+# Journal file: C:/Users/86134/Desktop/lab/SingleCycleCPU\vivado.jou
+# Running On: LAPTOP-R672LTNG, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8278 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/MUX2.v w ]
+add_files C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/MUX2.v
+close [ open C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/MUX1.v w ]
+add_files C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/MUX1.v
+close [ open C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/NPC_SEL.v w ]
+add_files C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/NPC_SEL.v
+close [ open C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/ADD.v w ]
+add_files C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/ADD.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/AND.v w ]
+add_files C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/AND.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/CHECK_DATA_SEL.v w ]
+add_files C:/Users/86134/Desktop/lab/SingleCycleCPU/SingleCycleCPU.srcs/sources_1/new/CHECK_DATA_SEL.v
+update_compile_order -fileset sources_1

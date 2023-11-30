@@ -1,0 +1,26 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/仿真/CPU_tb.v,1685960668,verilog,,,,CPU_tb,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEG_SEL.v,1685515551,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEL.v,,Check_Data_SEG_SEL,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEL.v,1685516791,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEL_HZD.v,,Check_Data_SEL,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEL_HZD.v,1685515681,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Control.v,,Check_Data_SEL_HZD,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v,1685963896,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEG_SEL.v,,CPU,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/MEM.v,1685953606,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/MUX_1.v,,MEM,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/ADD.v,1683685039,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/ALU.v,,ADD,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/ALU.v,1683685832,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/AND.v,,ALU,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/AND.v,1683685935,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Branch.v,,AND,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Branch.v,1685539592,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v,,Branch,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Control.v,1685697960,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Encoder.v,,Control,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Encoder.v,1685523474,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Hazard.v,,Encoder,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Hazard.v,1685987675,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/IMM.v,,Hazard,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/IMM.v,1683682825,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/MEM.v,,IMM,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/MUX_1.v,1685516502,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/MUX_2.v,,MUX_1,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/MUX_2.v,1685516506,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/PC.v,,MUX_2,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/PC.v,1685959988,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/RF.v,,PC,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/RF.v,1685522708,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/SEG_REG.v,,RF,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/SEG_REG.v,1685962022,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/仿真/CPU_tb.v,,SEG_REG,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.gen/sources_1/ip/D_memory/sim/D_memory.v,1685941731,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.gen/sources_1/ip/I_memory/sim/I_memory.v,,D_memory,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.gen/sources_1/ip/I_memory/sim/I_memory.v,1685984142,verilog,,C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/ADD.v,,I_memory,,,,,,,,
+C:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,

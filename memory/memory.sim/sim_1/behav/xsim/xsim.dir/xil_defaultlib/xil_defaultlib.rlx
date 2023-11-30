@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/86134/Desktop/lab/memory/memory.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1681234391,verilog,,C:/Users/86134/Desktop/lab/memory/memory.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,,blk_mem_gen_0,,,,,,,,
+C:/Users/86134/Desktop/lab/memory/memory.gen/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v,1681235069,verilog,,C:/Users/86134/Desktop/lab/memory/memory.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,,blk_mem_gen_1,,,,,,,,
+C:/Users/86134/Desktop/lab/memory/memory.gen/sources_1/ip/blk_mem_gen_2/sim/blk_mem_gen_2.v,1681235220,verilog,,C:/Users/86134/Desktop/lab/memory/memory.gen/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v,,blk_mem_gen_2,,,,,,,,
+C:/Users/86134/Desktop/lab/memory/memory.gen/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1681233026,verilog,,C:/Users/86134/Desktop/lab/memory/memory.srcs/sim_1/new/simulation.v,,dist_mem_gen_0,,,,,,,,
+C:/Users/86134/Desktop/lab/memory/memory.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/86134/Desktop/lab/memory/memory.srcs/sim_1/new/simulation.v,1681235430,verilog,,,,simulation,,,,,,,,

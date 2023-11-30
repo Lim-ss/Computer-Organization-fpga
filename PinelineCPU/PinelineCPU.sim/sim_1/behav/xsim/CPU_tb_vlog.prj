@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../PinelineCPU.gen/sources_1/ip/D_memory/sim/D_memory.v" \
+"../../../../PinelineCPU.gen/sources_1/ip/I_memory/sim/I_memory.v" \
+"../../../../Lab5_files/new/ADD.v" \
+"../../../../Lab5_files/new/ALU.v" \
+"../../../../Lab5_files/new/AND.v" \
+"../../../../Lab5_files/new/Branch.v" \
+"../../../../Lab5_files/TOP/CPU.v" \
+"../../../../Lab5_files/CPU_src/模块文件/Check_Data_SEG_SEL.v" \
+"../../../../Lab5_files/CPU_src/模块文件/Check_Data_SEL.v" \
+"../../../../Lab5_files/CPU_src/模块文件/Check_Data_SEL_HZD.v" \
+"../../../../Lab5_files/new/Control.v" \
+"../../../../Lab5_files/new/Encoder.v" \
+"../../../../Lab5_files/new/Hazard.v" \
+"../../../../Lab5_files/new/IMM.v" \
+"../../../../Lab5_files/TOP/MEM.v" \
+"../../../../Lab5_files/new/MUX_1.v" \
+"../../../../Lab5_files/new/MUX_2.v" \
+"../../../../Lab5_files/new/PC.v" \
+"../../../../Lab5_files/new/RF.v" \
+"../../../../Lab5_files/new/SEG_REG.v" \
+"../../../../Lab5_files/CPU_src/仿真/CPU_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

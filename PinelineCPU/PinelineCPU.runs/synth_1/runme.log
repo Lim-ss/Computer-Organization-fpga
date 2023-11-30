@@ -1,0 +1,614 @@
+
+*** Running vivado
+    with args -log Top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source Top.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 376.469 ; gain = 48.281
+Command: read_checkpoint -auto_incremental -incremental C:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.srcs/utils_1/imports/synth_1/Top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.srcs/utils_1/imports/synth_1/Top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 256
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/vivado/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1214.473 ; gain = 410.156
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Top.v:7]
+INFO: [Synth 8-6157] synthesizing module 'PDU' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/PDU.v:7]
+INFO: [Synth 8-6157] synthesizing module 'Receive' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Receive.v:9]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Receive.v:86]
+INFO: [Synth 8-6155] done synthesizing module 'Receive' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Receive.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Send' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Send.v:8]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Send.v:92]
+INFO: [Synth 8-6155] done synthesizing module 'Send' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Send.v:8]
+INFO: [Synth 8-6157] synthesizing module 'Ded' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Ded.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'Ded' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Ded.v:8]
+INFO: [Synth 8-6157] synthesizing module 'Memory_Map' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Memory_Map.v:6]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Memory_Map.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'Memory_Map' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Memory_Map.v:6]
+INFO: [Synth 8-6157] synthesizing module 'PDU_ctrl' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/PDU_ctrl.v:7]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/PDU_ctrl.v:146]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/PDU_ctrl.v:179]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/PDU_ctrl.v:123]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/PDU_ctrl.v:376]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/PDU_ctrl.v:425]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/PDU_ctrl.v:394]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/PDU_ctrl.v:464]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/PDU_ctrl.v:490]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/PDU_ctrl.v:501]
+INFO: [Synth 8-6157] synthesizing module 'Uout' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Uout.v:6]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Uout.v:89]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Uout.v:170]
+INFO: [Synth 8-6157] synthesizing module 'Hex2ASC' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Hex2ASC.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Hex2ASC' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Hex2ASC.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Uout' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Uout.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'PDU_ctrl' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/PDU_ctrl.v:7]
+INFO: [Synth 8-6157] synthesizing module 'Shift_reg' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Shift_reg.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'Shift_reg' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Shift_reg.v:10]
+INFO: [Synth 8-6157] synthesizing module 'Segment' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Segment.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'Segment' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Segment.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'PDU' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/PDU.v:7]
+INFO: [Synth 8-6157] synthesizing module 'CPU' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:8]
+INFO: [Synth 8-6157] synthesizing module 'ADD' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/ADD.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ADD' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/ADD.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PC' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/PC.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/PC.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MUX_1' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/MUX_1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_1' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/MUX_1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'SEG_REG' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/SEG_REG.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'SEG_REG' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/SEG_REG.v:1]
+WARNING: [Synth 8-7071] port 'rf_re0_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'rf_re1_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'rf_rd0_raw_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'rf_rd1_raw_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'rf_rd0_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'rf_rd1_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'rf_wd_sel_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'rf_we_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'imm_type_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'imm_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'alu_src1_sel_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'alu_src2_sel_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'alu_src1_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'alu_src2_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'alu_func_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'alu_ans_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'pc_br_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'pc_jal_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'pc_jalr_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'jal_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'jalr_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'br_type_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'br_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'pc_sel_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'pc_next_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'dm_addr_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'dm_din_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'dm_dout_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7071] port 'dm_we_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_if_id' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+WARNING: [Synth 8-7023] instance 'seg_reg_if_id' of module 'SEG_REG' has 73 connections declared, but only 44 given [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:223]
+INFO: [Synth 8-6157] synthesizing module 'RF' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/RF.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RF' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/RF.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IMM' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/IMM.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'IMM' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/IMM.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Control' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Control' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Control.v:1]
+WARNING: [Synth 8-7071] port 'rf_rd0_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_id_ex' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+WARNING: [Synth 8-7071] port 'rf_rd1_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_id_ex' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+WARNING: [Synth 8-7071] port 'alu_src1_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_id_ex' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+WARNING: [Synth 8-7071] port 'alu_src2_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_id_ex' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+WARNING: [Synth 8-7071] port 'alu_ans_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_id_ex' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+WARNING: [Synth 8-7071] port 'pc_br_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_id_ex' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+WARNING: [Synth 8-7071] port 'pc_jal_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_id_ex' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+WARNING: [Synth 8-7071] port 'pc_jalr_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_id_ex' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+WARNING: [Synth 8-7071] port 'br_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_id_ex' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+WARNING: [Synth 8-7071] port 'pc_sel_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_id_ex' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+WARNING: [Synth 8-7071] port 'pc_next_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_id_ex' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+WARNING: [Synth 8-7071] port 'dm_addr_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_id_ex' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+WARNING: [Synth 8-7071] port 'dm_din_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_id_ex' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+WARNING: [Synth 8-7071] port 'dm_dout_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_id_ex' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+WARNING: [Synth 8-7023] instance 'seg_reg_id_ex' of module 'SEG_REG' has 73 connections declared, but only 59 given [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:309]
+INFO: [Synth 8-6157] synthesizing module 'AND' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/AND.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'AND' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/AND.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/ALU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/ALU.v:1]
+WARNING: [Synth 8-7071] port 'overflow' of module 'ALU' is unconnected for instance 'alu' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:394]
+WARNING: [Synth 8-7023] instance 'alu' of module 'ALU' has 5 connections declared, but only 4 given [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:394]
+INFO: [Synth 8-6157] synthesizing module 'Branch' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Branch.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Branch' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Branch.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Encoder' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Encoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Encoder' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Encoder.v:1]
+WARNING: [Synth 8-7071] port 'dm_dout_out' of module 'SEG_REG' is unconnected for instance 'seg_reg_ex_mem' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:430]
+WARNING: [Synth 8-7023] instance 'seg_reg_ex_mem' of module 'SEG_REG' has 73 connections declared, but only 72 given [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:430]
+INFO: [Synth 8-6157] synthesizing module 'MUX_2' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/MUX_2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_2' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/MUX_2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Hazard' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Hazard.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Hazard' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/Hazard.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Check_Data_SEL' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEL.v:45]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEL.v:83]
+INFO: [Synth 8-6155] done synthesizing module 'Check_Data_SEL' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEL.v:45]
+INFO: [Synth 8-6157] synthesizing module 'Check_Data_SEL_HZD' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEL_HZD.v:42]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEL_HZD.v:77]
+INFO: [Synth 8-6155] done synthesizing module 'Check_Data_SEL_HZD' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEL_HZD.v:42]
+INFO: [Synth 8-6157] synthesizing module 'Check_Data_SEG_SEL' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEG_SEL.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEG_SEL.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'Check_Data_SEG_SEL' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/CPU_src/模块文件/Check_Data_SEG_SEL.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/CPU.v:8]
+INFO: [Synth 8-6157] synthesizing module 'MEM' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/MEM.v:1]
+INFO: [Synth 8-6157] synthesizing module 'I_memory' [C:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.runs/synth_1/.Xil/Vivado-27420-LAPTOP-R672LTNG/realtime/I_memory_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'I_memory' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.runs/synth_1/.Xil/Vivado-27420-LAPTOP-R672LTNG/realtime/I_memory_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'D_memory' [C:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.runs/synth_1/.Xil/Vivado-27420-LAPTOP-R672LTNG/realtime/D_memory_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'D_memory' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.runs/synth_1/.Xil/Vivado-27420-LAPTOP-R672LTNG/realtime/D_memory_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MEM' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/MEM.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (0#1) [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/Top.v:7]
+WARNING: [Synth 8-7129] Port im_addr[31] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[30] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[29] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[28] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[27] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[26] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[25] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[24] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[23] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[22] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[21] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[20] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[19] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[18] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[17] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[16] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[15] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[14] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[13] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[12] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[11] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[10] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[1] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port im_addr[0] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[31] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[30] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[29] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[28] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[27] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[26] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[25] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[24] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[23] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[22] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[21] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[20] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[19] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[18] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[17] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[16] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[15] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[14] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[13] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[12] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[11] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[10] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[1] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dm_addr[0] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[31] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[30] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[29] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[28] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[27] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[26] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[25] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[24] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[23] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[22] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[21] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[20] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[19] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[18] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[17] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[16] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[15] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[14] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[13] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[12] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[11] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[10] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[9] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_check_addr[8] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[24] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[23] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[22] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[21] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[20] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[19] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[18] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[17] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[16] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[15] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[11] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[10] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[9] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[8] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[7] in module Control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[6] in module IMM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[5] in module IMM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[4] in module IMM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[3] in module IMM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[2] in module IMM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[1] in module IMM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst[0] in module IMM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cpu_check_addr[31] in module CPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cpu_check_addr[30] in module CPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cpu_check_addr[29] in module CPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cpu_check_addr[28] in module CPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cpu_check_addr[27] in module CPU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cpu_check_addr[26] in module CPU is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1324.605 ; gain = 520.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1324.605 ; gain = 520.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1324.605 ; gain = 520.289
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.210 . Memory (MB): peak = 1324.605 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.gen/sources_1/ip/D_memory/D_memory/D_memory_in_context.xdc] for cell 'memory/dm'
+Finished Parsing XDC File [c:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.gen/sources_1/ip/D_memory/D_memory/D_memory_in_context.xdc] for cell 'memory/dm'
+Parsing XDC File [c:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.gen/sources_1/ip/I_memory/I_memory/I_memory_in_context.xdc] for cell 'memory/im'
+Finished Parsing XDC File [c:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.gen/sources_1/ip/I_memory/I_memory/I_memory_in_context.xdc] for cell 'memory/im'
+Parsing XDC File [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/约束/constrains.xdc]
+Finished Parsing XDC File [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/约束/constrains.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/TOP/约束/constrains.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1432.820 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1432.820 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/vivado/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1432.820 ; gain = 628.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1432.820 ; gain = 628.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for memory/dm. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for memory/im. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1432.820 ; gain = 628.504
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'uout_current_state_reg' in module 'Uout'
+INFO: [Synth 8-802] inferred FSM for state register 'main_current_state_reg' in module 'PDU_ctrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               UOUT_WAIT |                               00 |                      00000000000
+          UOUT_CHECK_SET |                               01 |                      00000000010
+             UOUT_BP_SET |                               10 |                      00000000100
+              UOUT_PRINT |                               11 |                      00000000001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'uout_current_state_reg' using encoding 'sequential' in module 'Uout'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    WAIT |                           000000 |                      00000000000
+                    BP_b |                           000001 |                      00000111100
+                    BP_p |                           000010 |                      00000111101
+                 BP_done |                           000011 |                      00000111110
+                PRINT_BP |                           000100 |                      00001100110
+           PRINT_BP_done |                           000101 |                      00001100111
+                   ADD_a |                           000110 |                      00000101000
+                  ADD_d1 |                           000111 |                      00000101001
+                  ADD_d2 |                           001000 |                      00000101010
+                ADD_done |                           001001 |                      00000101011
+                 CHECK_c |                           001010 |                      00000011110
+                 CHECK_k |                           001011 |                      00000011111
+                 CHECK_1 |                           001100 |                      00000100001
+                 CHECK_2 |                           001101 |                      00000100010
+                 CHECK_0 |                           001110 |                      00000100011
+                CHECK_00 |                           001111 |                      00010000010
+                CHECK_01 |                           010000 |                      00010000011
+                CHECK_02 |                           010001 |                      00010000100
+                CHECK_03 |                           010010 |                      00010000101
+                CHECK_04 |                           010011 |                      00010000110
+                CHECK_05 |                           010100 |                      00010000111
+             CHECK_input |                           010101 |                      00000100100
+              CHECK_done |                           010110 |                      00000100000
+               RUN_RST_r |                           010111 |                      00000010100
+                   RUN_u |                           011000 |                      00000010101
+                   RUN_n |                           011001 |                      00000010110
+                   RST_s |                           011010 |                      00001000111
+                   RST_t |                           011011 |                      00001001000
+                RST_done |                           011100 |                      00001001001
+              STEP_SUB_s |                           011101 |                      00000001010
+                  STEP_t |                           011110 |                      00000001011
+                  STEP_e |                           011111 |                      00000001100
+                  STEP_p |                           100000 |                      00000001101
+               STEP_done |                           100001 |                      00000001111
+               RUN_enter |                           100010 |                      00000010111
+                RUN_done |                           100011 |                      00000011000
+             SEG_display |                           100100 |                      00000000101
+                SEG_done |                           100101 |                      00000000110
+                   SUB_u |                           100110 |                      00000110100
+                   SUB_b |                           100111 |                      00000110101
+                SUB_done |                           101000 |                      00000110110
+             PRINT_CHECK |                           101001 |                      00001100100
+        PRINT_CHECK_done |                           101010 |                      00001100101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'main_current_state_reg' using encoding 'sequential' in module 'PDU_ctrl'
+WARNING: [Synth 8-327] inferring latch for variable 'overflow_reg' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/ALU.v:17]
+WARNING: [Synth 8-327] inferring latch for variable 'res_reg' [C:/Users/86134/Desktop/lab/PinelineCPU/Lab5_files/new/MUX_2.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1432.820 ; gain = 628.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 4     
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input   21 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 16    
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 6     
++---Registers : 
+	               32 Bit    Registers := 116   
+	               21 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 45    
+	                5 Bit    Registers := 13    
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 12    
+	                1 Bit    Registers := 55    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 25    
+	   8 Input   32 Bit        Muxes := 1     
+	  17 Input   32 Bit        Muxes := 2     
+	   4 Input   32 Bit        Muxes := 4     
+	  15 Input   32 Bit        Muxes := 3     
+	   3 Input   32 Bit        Muxes := 2     
+	   2 Input   21 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 30    
+	   6 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 16    
+	  78 Input    6 Bit        Muxes := 1     
+	   6 Input    4 Bit        Muxes := 1     
+	   9 Input    4 Bit        Muxes := 1     
+	   6 Input    3 Bit        Muxes := 2     
+	   8 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 3     
+	   3 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 6     
+	   2 Input    2 Bit        Muxes := 7     
+	   5 Input    2 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 82    
+	   3 Input    1 Bit        Muxes := 5     
+	   8 Input    1 Bit        Muxes := 8     
+	  11 Input    1 Bit        Muxes := 3     
+	   4 Input    1 Bit        Muxes := 12    
+	   5 Input    1 Bit        Muxes := 2     
+	  17 Input    1 Bit        Muxes := 1     
+	   7 Input    1 Bit        Muxes := 4     
+	  43 Input    1 Bit        Muxes := 1     
+	  15 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (overflow_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (res_reg[31]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[30]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[29]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[28]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[27]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[26]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[25]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[24]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[23]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[22]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[21]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[20]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[19]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[18]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[17]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[16]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[15]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[14]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[13]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[12]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[11]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[10]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[9]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[8]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[7]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[6]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[5]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[4]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[3]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[2]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[1]) is unused and will be removed from module MUX_2.
+WARNING: [Synth 8-3332] Sequential element (res_reg[0]) is unused and will be removed from module MUX_2.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 1432.820 ; gain = 628.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 1432.820 ; gain = 628.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:00 ; elapsed = 00:01:02 . Memory (MB): peak = 1432.820 ; gain = 628.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:02 ; elapsed = 00:01:05 . Memory (MB): peak = 1453.590 ; gain = 649.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:07 ; elapsed = 00:01:10 . Memory (MB): peak = 1467.238 ; gain = 662.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:07 ; elapsed = 00:01:10 . Memory (MB): peak = 1467.238 ; gain = 662.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:08 ; elapsed = 00:01:11 . Memory (MB): peak = 1467.238 ; gain = 662.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:08 ; elapsed = 00:01:11 . Memory (MB): peak = 1467.238 ; gain = 662.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:08 ; elapsed = 00:01:11 . Memory (MB): peak = 1467.238 ; gain = 662.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:08 ; elapsed = 00:01:11 . Memory (MB): peak = 1467.238 ; gain = 662.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |I_memory      |         1|
+|2     |D_memory      |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |D_memory |     1|
+|2     |I_memory |     1|
+|3     |BUFG     |     2|
+|4     |CARRY4   |    58|
+|5     |LUT1     |     8|
+|6     |LUT2     |   115|
+|7     |LUT3     |   312|
+|8     |LUT4     |   304|
+|9     |LUT5     |   568|
+|10    |LUT6     |  2159|
+|11    |MUXF7    |   442|
+|12    |MUXF8    |   194|
+|13    |FDCE     |    21|
+|14    |FDPE     |    11|
+|15    |FDRE     |  2776|
+|16    |FDSE     |     6|
+|17    |IBUF     |    11|
+|18    |OBUF     |    16|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:08 ; elapsed = 00:01:11 . Memory (MB): peak = 1467.238 ; gain = 662.922
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 81 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:56 ; elapsed = 00:01:07 . Memory (MB): peak = 1467.238 ; gain = 554.707
+Synthesis Optimization Complete : Time (s): cpu = 00:01:08 ; elapsed = 00:01:11 . Memory (MB): peak = 1467.238 ; gain = 662.922
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.132 . Memory (MB): peak = 1479.367 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 694 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1483.051 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 1d4eb3d8
+INFO: [Common 17-83] Releasing license: Synthesis
+107 Infos, 185 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:16 ; elapsed = 00:01:20 . Memory (MB): peak = 1483.051 ; gain = 1073.676
+[libprotobuf ERROR C:\w10\HEAD\src\ext\protobuf\build\lnx64\protobuf-3.7.1\src\google\protobuf\wire_format_lite.cc:611] String field 'HDMetricDBGroup.MetricMapEntry.value' contains invalid UTF-8 data when serializing a protocol buffer. Use the 'bytes' type if you intend to send raw bytes. 
+[libprotobuf ERROR C:\w10\HEAD\src\ext\protobuf\build\lnx64\protobuf-3.7.1\src\google\protobuf\wire_format_lite.cc:611] String field 'HDMetricDBGroup.MetricMapEntry.value' contains invalid UTF-8 data when serializing a protocol buffer. Use the 'bytes' type if you intend to send raw bytes. 
+[libprotobuf ERROR C:\w10\HEAD\src\ext\protobuf\build\lnx64\protobuf-3.7.1\src\google\protobuf\wire_format_lite.cc:611] String field 'HDMetricDBGroup.MetricMapEntry.value' contains invalid UTF-8 data when serializing a protocol buffer. Use the 'bytes' type if you intend to send raw bytes. 
+INFO: [Common 17-1381] The checkpoint 'C:/Users/86134/Desktop/lab/PinelineCPU/PinelineCPU.runs/synth_1/Top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_utilization_synth.rpt -pb Top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  6 01:59:52 2023...

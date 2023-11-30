@@ -1,0 +1,2 @@
+I_memory.v,verilog,xil_defaultlib,../../../../PinelineCPU.gen/sources_1/ip/I_memory/sim/I_memory.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
